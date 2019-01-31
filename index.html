@@ -10,6 +10,7 @@
   text-align: center;
   font-size: 16px;
   cursor: pointer;
+  display: inline;
 }
 
 #button:hover {
@@ -18,8 +19,10 @@
 </style>
 </head>
 <body>
+<form action="http://google.com">
+    <button id = "button" type="submit" value="Go to Google" />
+</form>  
   <script>
-  <input type="button" onclick="location.href='http://google.com';" value="Go to Google" />
   </script>
 </body>
 </html>
