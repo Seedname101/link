@@ -2,7 +2,7 @@
 <html>
 <head>
 <style>
-.button {
+#button {
   background-color: #4CAF50;
   border: none;
   color: white;
@@ -12,14 +12,14 @@
   cursor: pointer;
 }
 
-.button:hover {
+#button:hover {
   background-color: green;
 }
 </style>
 </head>
 <body>
-<form action="http://google.com">
-    <input class = "button" type="submit" value="Go to Google" />
-</form>
+  <script>
+  <input type="button" onclick="location.href='http://google.com';" value="Go to Google" />
+  </script>
 </body>
 </html>
